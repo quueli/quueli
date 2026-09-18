@@ -1,0 +1,6 @@
+credits = ""
+
+[sections.last_updated]
+plugin = "current_date"
+inline = true
+format = "%d %b %Y"
