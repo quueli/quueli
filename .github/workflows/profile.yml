@@ -1,4 +1,4 @@
-name: doteki
+name: profile
 
 on:
   workflow_dispatch:
@@ -16,12 +16,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install "doteki[all]"
+      - run: pip install doteki
+      - name: rebuild banner
+        run: python scripts/build_banner.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
       - run: doteki
-      - name: commit changes
+      - name: commit
         run: |
           git config user.name "quueli"
           git config user.email "rampadian@mail.ru"
-          git add README.md
-          git diff --quiet --cached || git commit -m "refresh profile sections"
+          git add README.md assets/banner.svg assets/stats.json
+          git diff --quiet --cached || git commit -m "refresh"
           git push
