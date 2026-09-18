@@ -149,10 +149,9 @@ def render(stats):
     blocks = [
         (fmt(stats["commits"]), "COMMITS"),
         (fmt(stats["repos"]), "PUBLIC REPOS"),
-        (str(stats["languages"]), "LANGUAGES"),
         (str(stats["since"]), "ACTIVE SINCE"),
     ]
-    x0, step = 400, 200
+    x0, step = 400, 230
     stat_svg = ""
     for i, (value, label) in enumerate(blocks):
         x = x0 + i * step

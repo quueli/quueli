@@ -40,7 +40,7 @@
   <rect x="336" y="96" width="1.5" height="150" fill="url(#divider)"/>
 
   <g font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
-    <text x="400" y="176" font-size="46" font-weight="700" fill="#f3efff">1 150</text><text x="401" y="204" font-size="12" font-weight="600" fill="#8981b4" letter-spacing="2.4">COMMITS</text><text x="600" y="176" font-size="46" font-weight="700" fill="#f3efff">13</text><text x="601" y="204" font-size="12" font-weight="600" fill="#8981b4" letter-spacing="2.4">PUBLIC REPOS</text><text x="800" y="176" font-size="46" font-weight="700" fill="#f3efff">5</text><text x="801" y="204" font-size="12" font-weight="600" fill="#8981b4" letter-spacing="2.4">LANGUAGES</text><text x="1000" y="176" font-size="46" font-weight="700" fill="#f3efff">2025</text><text x="1001" y="204" font-size="12" font-weight="600" fill="#8981b4" letter-spacing="2.4">ACTIVE SINCE</text>
+    <text x="400" y="176" font-size="46" font-weight="700" fill="#f3efff">1 150</text><text x="401" y="204" font-size="12" font-weight="600" fill="#8981b4" letter-spacing="2.4">COMMITS</text><text x="630" y="176" font-size="46" font-weight="700" fill="#f3efff">13</text><text x="631" y="204" font-size="12" font-weight="600" fill="#8981b4" letter-spacing="2.4">PUBLIC REPOS</text><text x="860" y="176" font-size="46" font-weight="700" fill="#f3efff">2025</text><text x="861" y="204" font-size="12" font-weight="600" fill="#8981b4" letter-spacing="2.4">ACTIVE SINCE</text>
     <text x="401" y="262" font-size="14" font-weight="500" fill="#a89ed0" letter-spacing="2.6">PYTHON  ·  AIOGRAM  ·  TELETHON  ·  FASTAPI  ·  TYPESCRIPT  ·  PHP  ·  DOCKER</text>
   </g>
 </svg>
