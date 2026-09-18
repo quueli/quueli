@@ -26,6 +26,6 @@ jobs:
         run: |
           git config user.name "quueli"
           git config user.email "rampadian@mail.ru"
-          git add README.md assets/banner.svg assets/stats.json
+          git add README.md assets/banner.svg assets/calendar.json
           git diff --quiet --cached || git commit -m "refresh"
           git push
